@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lazy loading images</title>
+    <style>
+      body {
+        height: 1000px;
+      }
+      #arrow {
+        width: 100px;
+        height: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Scroll Down!</h1>
+    <img src="./images/down-arrow-facebook.png" alt="" id="arrow" /> <br />
+    <br />
+    <img src="./images/loader.png" class="hide" data-src="./images/earth.jpg" />
+    <script src="./script.js"></script>
+  </body>
+</html>
